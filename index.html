@@ -1,0 +1,1190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rustomjee Ozone Phase 2 – Goregaon West | Ultra-Luxury High-Rise</title>
+  <meta name="description" content="Rustomjee Ozone Phase 2 – Goregaon West. Ultra-luxury 2 & 3 BHK residences in an iconic G+49 boutique tower. Premium sky-level amenities, excellent connectivity."/>
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<!-- ==================== NAVBAR ==================== -->
+<nav class="navbar navbar-expand-lg fixed-top luxury-navbar" id="mainNavbar">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <div class="brand-logo">
+        <span class="brand-icon"><i class="fas fa-building"></i></span>
+        <div class="brand-text">
+          <span class="brand-main">RUSTOMJEE</span>
+          <span class="brand-sub">Ozone Phase 2</span>
+        </div>
+      </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="toggler-icon"><i class="fas fa-bars"></i></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto align-items-center">
+        <li class="nav-item"><a class="nav-link" href="#highlights">Highlights</a></li>
+        <li class="nav-item"><a class="nav-link" href="#configurations">Configurations</a></li>
+        <li class="nav-item"><a class="nav-link" href="#amenities">Amenities</a></li>
+        <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="#location">Location</a></li>
+        <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+        <li class="nav-item ms-lg-3">
+          <a class="nav-link nav-cta-btn" href="#contact">
+            <i class="fas fa-phone-alt me-1"></i> Enquire Now
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ==================== HERO SECTION ==================== -->
+<section class="hero-section" id="home">
+  <div class="hero-overlay"></div>
+  <div class="hero-particles" id="particles"></div>
+  <div class="container h-100">
+    <div class="row h-100 align-items-center">
+      <!-- Left Content -->
+      <div class="col-lg-7 hero-content" data-aos="fade-right">
+        <div class="hero-badge">
+          <i class="fas fa-star"></i> New Launch – Goregaon West, Mumbai
+        </div>
+        <h1 class="hero-title">
+          Rustomjee<br/>
+          <span class="gold-text">Ozone Phase 2</span>
+        </h1>
+        <p class="hero-subtitle">The Ultimate High-Rise Living Opportunity</p>
+        <div class="hero-tags">
+          <span class="hero-tag"><i class="fas fa-layer-group"></i> G+49 Storey</span>
+          <span class="hero-tag"><i class="fas fa-home"></i> 2 & 3 BHK</span>
+          <span class="hero-tag"><i class="fas fa-map-marker-alt"></i> Goregaon West</span>
+          <span class="hero-tag"><i class="fas fa-shield-alt"></i> RERA June 2026</span>
+        </div>
+        <div class="hero-price">
+          <span class="price-label">Starting From</span>
+          <span class="price-value">₹ On Request</span>
+        </div>
+        <div class="hero-btns">
+          <a href="#contact" class="btn-luxury-primary">
+            <i class="fas fa-calendar-check me-2"></i>Book Site Visit
+          </a>
+          <a href="#contact" class="btn-luxury-secondary">
+            <i class="fas fa-download me-2"></i>Download Brochure
+          </a>
+        </div>
+        <div class="hero-trust">
+          <div class="trust-item"><i class="fas fa-certificate"></i><span>RERA Registered</span></div>
+          <div class="trust-item"><i class="fas fa-award"></i><span>Trusted Developer</span></div>
+          <div class="trust-item"><i class="fas fa-key"></i><span>Dec 2031 Possession</span></div>
+        </div>
+      </div>
+      <!-- Right Form -->
+      <div class="col-lg-5 mt-5 mt-lg-0" data-aos="fade-left">
+        <div class="hero-form-card">
+          <div class="form-header">
+            <h3>Get <span class="gold-text">Exclusive</span> Details</h3>
+            <p>Free consultation with our property expert</p>
+          </div>
+          <form id="heroForm" onsubmit="handleForm(event, 'heroForm')">
+            <div class="form-group-luxury">
+              <label><i class="fas fa-user"></i> Full Name</label>
+              <input type="text" class="luxury-input" placeholder="Enter your full name" required/>
+            </div>
+            <div class="form-group-luxury">
+              <label><i class="fas fa-phone"></i> Phone Number</label>
+              <input type="tel" class="luxury-input" placeholder="+91 00000 00000" required/>
+            </div>
+            <div class="form-group-luxury">
+              <label><i class="fas fa-home"></i> I'm Interested In</label>
+              <select class="luxury-input">
+                <option value="">Select Configuration</option>
+                <option>2 BHK – 740+ sq.ft.</option>
+                <option>3 BHK – 1000+ sq.ft.</option>
+                <option>Jodi Apartment</option>
+                <option>Investment Purpose</option>
+              </select>
+            </div>
+            <button type="submit" class="btn-form-submit">
+              <i class="fas fa-paper-plane me-2"></i>Get Cost Sheet
+            </button>
+            <p class="form-privacy">
+              <i class="fas fa-lock"></i> Your information is 100% safe & confidential
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Scroll indicator -->
+  <div class="scroll-indicator">
+    <div class="scroll-dot"></div>
+    <span>Scroll to Explore</span>
+  </div>
+</section>
+
+<!-- ==================== STATS BAR ==================== -->
+<section class="stats-bar">
+  <div class="container">
+    <div class="row">
+      <div class="col-6 col-md-3">
+        <div class="stat-item">
+          <span class="stat-number" data-count="49">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Storey Tower</span>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="stat-item">
+          <span class="stat-number" data-count="740">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Sq.ft. Carpet Area</span>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="stat-item">
+          <span class="stat-number" data-count="18">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Premium Amenities</span>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="stat-item">
+          <span class="stat-number" data-count="200">0</span><span class="stat-plus">m</span>
+          <span class="stat-label">From SV Road</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== INTRODUCTION SECTION ==================== -->
+<section class="section-intro" id="introduction">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6" data-aos="fade-right">
+        <span class="section-tag">About The Project</span>
+        <h2 class="section-title">Rustomjee <span class="gold-text">Ozone Phase 2</span><br/>Goregaon West</h2>
+        <p class="intro-lead">The Ultimate High-Rise Living Opportunity in Mumbai</p>
+        <p class="intro-text">
+          Rustomjee Ozone Phase 2 is an iconic luxury residential development located in the prime
+          neighbourhood of Goregaon West. Designed for modern urban lifestyles, this exclusive boutique
+          high-rise tower offers premium residences, world-class amenities, elegant architecture, and
+          exceptional connectivity in one of Mumbai's fastest-growing residential destinations.
+        </p>
+        <p class="intro-text">
+          This prestigious development is thoughtfully planned to provide residents with a refined lifestyle
+          experience that blends luxury, comfort, convenience, and future investment potential. With spacious
+          homes, sky-level amenities, low-density planning, and seamless access to major parts of Mumbai,
+          Rustomjee Ozone Phase 2 creates a perfect environment for families, professionals, and investors
+          seeking premium living spaces.
+        </p>
+        <p class="intro-text">
+          The project stands as a symbol of modern urban sophistication where residents can enjoy luxury
+          living while remaining connected to important business districts, entertainment hubs, lifestyle
+          destinations, educational institutions, and healthcare facilities.
+        </p>
+        <div class="intro-cta">
+          <a href="#contact" class="btn-luxury-primary">
+            <i class="fas fa-calendar-check me-2"></i>Book Site Visit
+          </a>
+          <a href="#configurations" class="btn-outline-gold ms-3">
+            <i class="fas fa-home me-2"></i>View Configurations
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-6" data-aos="fade-left">
+        <div class="intro-image-grid">
+          <div class="intro-img-main">
+            <img src="images/hero main.png" alt="Rustomjee Ozone Phase 2 Tower"/>
+            <div class="intro-img-badge">
+              <i class="fas fa-building"></i>
+              <div>
+                <strong>G+49</strong>
+                <span>Iconic Tower</span>
+              </div>
+            </div>
+          </div>
+          <div class="intro-img-side">
+            <div class="intro-img-small">
+              <img src="images/amenities-02.jpg" alt="Infinity Pool"/>
+              <span>Infinity Pool</span>
+            </div>
+            <div class="intro-img-small">
+              <img src="images/gallery-01.jpg" alt="Luxury Living"/>
+              <span>Luxury Living</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== LANDMARK DEVELOPMENT ==================== -->
+<section class="section-landmark">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-10 text-center" data-aos="fade-up">
+        <span class="section-tag">A Landmark Development</span>
+        <h2 class="section-title">A Landmark Luxury Development<br/>in <span class="gold-text">Goregaon West</span></h2>
+        <p class="landmark-intro">
+          Goregaon West has emerged as one of Mumbai's most desirable residential micro-markets because of
+          its strategic location, excellent infrastructure, strong connectivity, and premium lifestyle
+          developments. Rustomjee Ozone Phase 2 enhances this growing destination with an iconic
+          <strong>Ground + 49 storey</strong> luxury tower designed to redefine elevated living experiences.
+        </p>
+      </div>
+    </div>
+    <div class="row g-4 mt-2">
+      <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="100">
+        <div class="landmark-card">
+          <div class="landmark-icon"><i class="fas fa-low-vision"></i></div>
+          <h5>Boutique Low-Density</h5>
+          <p>Unlike crowded developments, this project focuses on boutique living — offering greater privacy, comfort, and exclusivity for residents.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
+        <div class="landmark-card">
+          <div class="landmark-icon"><i class="fas fa-certificate"></i></div>
+          <h5>Pure Sale Development</h5>
+          <p>100% pure sale with no redevelopment component, making it highly attractive for homebuyers seeking a professionally planned environment.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="300">
+        <div class="landmark-card">
+          <div class="landmark-icon"><i class="fas fa-hotel"></i></div>
+          <h5>Premium Architecture</h5>
+          <p>Modern tower elevation, premium façade design, elegant entrance lobby, and thoughtfully planned common spaces that reflect luxury and sophistication.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="400">
+        <div class="landmark-card">
+          <div class="landmark-icon"><i class="fas fa-chart-line"></i></div>
+          <h5>Long-Term Value</h5>
+          <p>Every aspect of the development is designed to offer residents a premium urban lifestyle while ensuring long-term value and future appreciation potential.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== PROJECT HIGHLIGHTS SLIDER ==================== -->
+<section class="section-luxury" id="highlights">
+  <div class="container">
+    <div class="section-header text-center" data-aos="fade-up">
+      <span class="section-tag">Why Choose Us</span>
+      <h2 class="section-title">Project <span class="gold-text">Highlights</span></h2>
+      <p class="section-subtitle">Discover what makes Rustomjee Ozone Phase 2 truly iconic</p>
+    </div>
+    <div class="swiper highlights-swiper" data-aos="fade-up" data-aos-delay="200">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="highlight-card">
+            <div class="highlight-icon"><i class="fas fa-building"></i></div>
+            <h4>G+49 Iconic Tower</h4>
+            <p>A majestic Ground + 49 storey luxury high-rise defining the Goregaon West skyline.</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="highlight-card">
+            <div class="highlight-icon"><i class="fas fa-certificate"></i></div>
+            <h4>Pure Sale Development</h4>
+            <p>100% pure sale — no redevelopment component. Ideal for homebuyers & investors.</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="highlight-card">
+            <div class="highlight-icon"><i class="fas fa-gem"></i></div>
+            <h4>Boutique Low-Density Living</h4>
+            <p>Exclusive boutique tower offering greater privacy, comfort, and exclusivity.</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="highlight-card">
+            <div class="highlight-icon"><i class="fas fa-swimming-pool"></i></div>
+            <h4>Premium Sky-Level Amenities</h4>
+            <p>World-class sky amenities including infinity pool, sky lounge, and wellness spaces.</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="highlight-card">
+            <div class="highlight-icon"><i class="fas fa-ruler-combined"></i></div>
+            <h4>Spacious Smart Layouts</h4>
+            <p>2 BHK (740+ sq.ft.) & 3 BHK (1000+ sq.ft.) with optimal space utilization.</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="highlight-card">
+            <div class="highlight-icon"><i class="fas fa-shield-alt"></i></div>
+            <h4>Trusted Rustomjee Quality</h4>
+            <p>Decades of excellence in luxury construction with premium materials & finishes.</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="highlight-card">
+            <div class="highlight-icon"><i class="fas fa-chart-line"></i></div>
+            <h4>Strong Appreciation Potential</h4>
+            <p>Prime location with upcoming GMLR & coastal road driving future value growth.</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="highlight-card">
+            <div class="highlight-icon"><i class="fas fa-road"></i></div>
+            <h4>Excellent Connectivity</h4>
+            <p>200m from SV Road, 20m from GMLR Flyover, 1.5km from Western Express Highway.</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination highlights-pagination"></div>
+      <div class="swiper-button-prev highlights-prev"></div>
+      <div class="swiper-button-next highlights-next"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== CONFIGURATIONS ==================== -->
+<section class="section-dark" id="configurations">
+  <div class="container">
+    <div class="section-header text-center" data-aos="fade-up">
+      <span class="section-tag">Residences</span>
+      <h2 class="section-title">Luxury <span class="gold-text">Configurations</span></h2>
+      <p class="section-subtitle">Thoughtfully designed homes for modern urban families</p>
+    </div>
+    <div class="row g-4 justify-content-center">
+      <!-- 2 BHK -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="config-card">
+          <div class="config-badge">Most Popular</div>
+          <div class="config-icon"><i class="fas fa-home"></i></div>
+          <h3 class="config-type">2 BHK</h3>
+          <div class="config-area">
+            <span class="area-num">740+</span>
+            <span class="area-unit">sq.ft. Carpet</span>
+          </div>
+          <ul class="config-features">
+            <li><i class="fas fa-check-circle"></i> Spacious Living & Dining</li>
+            <li><i class="fas fa-check-circle"></i> Elegant Bedrooms</li>
+            <li><i class="fas fa-check-circle"></i> Premium Kitchen Layout</li>
+            <li><i class="fas fa-check-circle"></i> Modern Bathrooms</li>
+            <li><i class="fas fa-check-circle"></i> Excellent Natural Ventilation</li>
+          </ul>
+          <a href="#contact" class="btn-config">Get Price Details</a>
+        </div>
+      </div>
+      <!-- 3 BHK -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="config-card config-featured">
+          <div class="config-badge featured-badge">Premium Choice</div>
+          <div class="config-icon"><i class="fas fa-building"></i></div>
+          <h3 class="config-type">3 BHK</h3>
+          <div class="config-area">
+            <span class="area-num">1000+</span>
+            <span class="area-unit">sq.ft. Carpet</span>
+          </div>
+          <ul class="config-features">
+            <li><i class="fas fa-check-circle"></i> Larger Family Living Spaces</li>
+            <li><i class="fas fa-check-circle"></i> Luxury Interior Planning</li>
+            <li><i class="fas fa-check-circle"></i> Spacious Bedrooms</li>
+            <li><i class="fas fa-check-circle"></i> Premium Lifestyle Design</li>
+            <li><i class="fas fa-check-circle"></i> Elegant Urban Living</li>
+          </ul>
+          <a href="#contact" class="btn-config">Get Price Details</a>
+        </div>
+      </div>
+      <!-- Jodi -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="config-card">
+          <div class="config-badge">Exclusive</div>
+          <div class="config-icon"><i class="fas fa-expand"></i></div>
+          <h3 class="config-type">Jodi Options</h3>
+          <div class="config-area">
+            <span class="area-num">Custom</span>
+            <span class="area-unit">Combined Units</span>
+          </div>
+          <ul class="config-features">
+            <li><i class="fas fa-check-circle"></i> Combined Spacious Residences</li>
+            <li><i class="fas fa-check-circle"></i> Ideal for Large Families</li>
+            <li><i class="fas fa-check-circle"></i> Enhanced Luxury Living</li>
+            <li><i class="fas fa-check-circle"></i> Premium Space Planning</li>
+            <li><i class="fas fa-check-circle"></i> Maximum Privacy</li>
+          </ul>
+          <a href="#contact" class="btn-config">Get Price Details</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Details Bar -->
+    <div class="project-details-bar" data-aos="fade-up" data-aos-delay="200">
+      <div class="row g-3 text-center">
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="detail-pill">
+            <i class="fas fa-map"></i>
+            <span>0.3 Acre Land</span>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="detail-pill">
+            <i class="fas fa-tower-observation"></i>
+            <span>1 Exclusive Tower</span>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="detail-pill">
+            <i class="fas fa-users-slash"></i>
+            <span>No Old Members</span>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="detail-pill detail-pill-rera">
+            <div class="detail-rera-icon">
+              <i class="fas fa-certificate"></i>
+              <span class="detail-rera-label">RERA</span>
+            </div>
+            <span>Expected June 2026</span>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="detail-pill">
+            <i class="fas fa-calendar-check"></i>
+            <span>Possession Dec 2031</span>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="detail-pill">
+            <i class="fas fa-credit-card"></i>
+            <span>Flexible Payment</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== AMENITIES ==================== -->
+<section class="section-luxury" id="amenities">
+  <div class="container">
+    <div class="section-header text-center" data-aos="fade-up">
+      <span class="section-tag">World-Class Living</span>
+      <h2 class="section-title">Premium <span class="gold-text">Amenities</span></h2>
+      <p class="section-subtitle">Experience elevated living with sky-level luxury facilities</p>
+    </div>
+
+    <!-- Amenity Labels Row -->
+    <div class="row g-2 justify-content-center mb-4" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-auto"><span class="amenity-tag"><i class="fas fa-swimming-pool"></i> Infinity Pool</span></div>
+      <div class="col-auto"><span class="amenity-tag"><i class="fas fa-couch"></i> Sky Lounge</span></div>
+      <div class="col-auto"><span class="amenity-tag"><i class="fas fa-dumbbell"></i> Fitness Centre</span></div>
+      <div class="col-auto"><span class="amenity-tag"><i class="fas fa-spa"></i> Yoga Deck</span></div>
+      <div class="col-auto"><span class="amenity-tag"><i class="fas fa-glass-cheers"></i> Clubhouse</span></div>
+      <div class="col-auto"><span class="amenity-tag"><i class="fas fa-child"></i> Play Area</span></div>
+      <div class="col-auto"><span class="amenity-tag"><i class="fas fa-leaf"></i> Gardens</span></div>
+      <div class="col-auto"><span class="amenity-tag"><i class="fas fa-shield-alt"></i> Security</span></div>
+    </div>
+
+    <!-- Amenity Image Slider -->
+    <div class="swiper amenity-swiper" data-aos="fade-up" data-aos-delay="200">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="amenity-slide-card">
+            <img src="images/amenities-01.jpg" alt="Landscaped Gardens" loading="lazy"/>
+            <div class="amenity-slide-overlay">
+              <i class="fas fa-leaf"></i>
+              <h4>Landscaped Gardens</h4>
+              <p>Beautifully curated green spaces and relaxation decks</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="amenity-slide-card">
+            <img src="images/amenities-02.jpg" alt="Infinity Pool" loading="lazy"/>
+            <div class="amenity-slide-overlay">
+              <i class="fas fa-swimming-pool"></i>
+              <h4>Infinity Pool</h4>
+              <p>Sky-level infinity swimming pool with panoramic city views</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="amenity-slide-card">
+            <img src="images/amenities-03.jpg" alt="Fitness Centre" loading="lazy"/>
+            <div class="amenity-slide-overlay">
+              <i class="fas fa-dumbbell"></i>
+              <h4>Fitness Centre</h4>
+              <p>State-of-the-art modern fitness centre with premium equipment</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="amenity-slide-card">
+            <img src="images/amenities-04.jpg" alt="Luxury Clubhouse" loading="lazy"/>
+            <div class="amenity-slide-overlay">
+              <i class="fas fa-glass-cheers"></i>
+              <h4>Luxury Clubhouse</h4>
+              <p>Elegant clubhouse for events and social activities</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="amenity-slide-card">
+            <img src="images/amenities-06.jpg" alt="Sky Lounge" loading="lazy"/>
+            <div class="amenity-slide-overlay">
+              <i class="fas fa-couch"></i>
+              <h4>Sky Lounge</h4>
+              <p>Exclusive sky lounge for relaxation and social gatherings</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="amenity-slide-card">
+            <img src="images/amenities-07.jpg" alt="Yoga &amp; Wellness" loading="lazy"/>
+            <div class="amenity-slide-overlay">
+              <i class="fas fa-spa"></i>
+              <h4>Yoga &amp; Wellness</h4>
+              <p>Dedicated yoga & meditation spaces for wellness and peace</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="amenity-slide-card">
+            <img src="images/amenities-08.jpg" alt="Children's Play Area" loading="lazy"/>
+            <div class="amenity-slide-overlay">
+              <i class="fas fa-child"></i>
+              <h4>Children's Play Area</h4>
+              <p>Safe, fun, and engaging play zone for kids of all ages</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="amenity-slide-card">
+            <img src="images/amenities-09.jpg" alt="Smart Security" loading="lazy"/>
+            <div class="amenity-slide-overlay">
+              <i class="fas fa-shield-alt"></i>
+              <h4>Smart Security</h4>
+              <p>Advanced CCTV, 24×7 security systems & premium lobby</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination amenity-pagination"></div>
+      <div class="swiper-button-prev amenity-prev"></div>
+      <div class="swiper-button-next amenity-next"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== GALLERY SECTION ==================== -->
+<section class="section-dark" id="gallery">
+  <div class="container">
+    <div class="section-header text-center" data-aos="fade-up">
+      <span class="section-tag">Visual Tour</span>
+      <h2 class="section-title">Project <span class="gold-text">Gallery</span></h2>
+      <p class="section-subtitle">A glimpse into the luxury that awaits you</p>
+    </div>
+    <div class="gallery-grid" data-aos="fade-up" data-aos-delay="100">
+      <div class="gallery-item gallery-item--wide">
+        <img src="images/gallery-01.jpg" alt="Tower Facade" loading="lazy"/>
+        <!-- <div class="gallery-overlay"><span>Tower Facade</span></div> -->
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery-02.jpg" alt="Luxury Living Room" loading="lazy"/>
+        <!-- <div class="gallery-overlay"><span>Luxury Living Room</span></div> -->
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery-03.jpg" alt="Infinity Pool" loading="lazy"/>
+        <!-- <div class="gallery-overlay"><span>Infinity Pool</span></div> -->
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery-04.jpg" alt="Grand Lobby" loading="lazy"/>
+        <!-- <div class="gallery-overlay"><span>Grand Lobby</span></div> -->
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery-05.jpg" alt="Master Bedroom" loading="lazy"/>
+        <!-- <div class="gallery-overlay"><span>Master Bedroom</span></div> -->
+      </div>
+      <div class="gallery-item gallery-item--wide">
+        <img src="images/gallery-06.jpg" alt="Modular Kitchen" loading="lazy"/>
+        <!-- <div class="gallery-overlay"><span>Modular Kitchen</span></div> -->
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery-07.jpg" alt="Fitness Centre" loading="lazy"/>
+        <!-- <div class="gallery-overlay"><span>Fitness Centre</span></div> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== LOCATION ==================== -->
+<section class="section-luxury" id="location">
+  <div class="container">
+    <div class="section-header text-center" data-aos="fade-up">
+      <span class="section-tag">Strategic Location</span>
+      <h2 class="section-title">Prime <span class="gold-text">Connectivity</span></h2>
+      <p class="section-subtitle">Seamlessly connected to every corner of Mumbai</p>
+    </div>
+    <div class="row g-4 align-items-start">
+      <div class="col-lg-6" data-aos="fade-right">
+        <div class="row g-3">
+          <div class="col-6">
+            <div class="connect-card">
+              <div class="connect-distance">200m</div>
+              <div class="connect-icon"><i class="fas fa-road"></i></div>
+              <h6>SV Road</h6>
+              <p>Western Suburban Highway</p>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="connect-card">
+              <div class="connect-distance">200m</div>
+              <div class="connect-icon"><i class="fas fa-directions"></i></div>
+              <h6>Link Road</h6>
+              <p>Key Arterial Road</p>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="connect-card connect-highlight">
+              <div class="connect-distance">20m</div>
+              <div class="connect-icon"><i class="fas fa-archway"></i></div>
+              <h6>WEH & GMLR Flyover</h6>
+              <p>Direct Highway Access</p>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="connect-card">
+              <div class="connect-distance">1.5 km</div>
+              <div class="connect-icon"><i class="fas fa-highway"></i></div>
+              <h6>Western Express Highway</h6>
+              <p>Mumbai's Lifeline</p>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="connect-card">
+              <div class="connect-distance">2.5 km</div>
+              <div class="connect-icon"><i class="fas fa-construction"></i></div>
+              <h6>Upcoming GMLR</h6>
+              <p>Goregaon Mulund Link Road</p>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="connect-card">
+              <div class="connect-distance">8 km</div>
+              <div class="connect-icon"><i class="fas fa-water"></i></div>
+              <h6>Coastal Road</h6>
+              <p>Versova–Dahisar Coastal</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6" data-aos="fade-left">
+        <div class="map-container">
+          <iframe
+            src="https://maps.google.com/maps?q=Goregaon+West+Mumbai&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen loading="lazy"
+            title="Rustomjee Ozone Phase 2 Location">
+          </iframe>
+          <div class="map-overlay-badge">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Rustomjee Ozone Phase 2<br/>Goregaon West, Mumbai</span>
+          </div>
+        </div>
+        <div class="nearby-section">
+          <h5 class="nearby-title"><i class="fas fa-map-pin gold-text"></i> Nearby Destinations</h5>
+          <div class="row g-2">
+            <div class="col-6"><div class="nearby-item"><i class="fas fa-graduation-cap"></i> Top Schools & Colleges</div></div>
+            <div class="col-6"><div class="nearby-item"><i class="fas fa-hospital"></i> Leading Hospitals</div></div>
+            <div class="col-6"><div class="nearby-item"><i class="fas fa-shopping-bag"></i> Premium Malls</div></div>
+            <div class="col-6"><div class="nearby-item"><i class="fas fa-briefcase"></i> Business Districts</div></div>
+            <div class="col-6"><div class="nearby-item"><i class="fas fa-film"></i> Entertainment Hubs</div></div>
+            <div class="col-6"><div class="nearby-item"><i class="fas fa-plane"></i> Airport Access</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== ABOUT DEVELOPER ==================== -->
+<!-- <section class="section-about">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6" data-aos="fade-right">
+        <div class="about-image-wrap">
+          <img src="images/about.jpg" alt="Rustomjee Developer" class="about-img" loading="lazy"/>
+          <div class="about-img-badge">
+            <i class="fas fa-award"></i>
+            <span>Premium<br/>Developer</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6" data-aos="fade-left">
+        <div class="about-content">
+          <span class="section-tag">About Developer</span>
+          <h2 class="section-title">Trusted <span class="gold-text">Rustomjee</span> Quality</h2>
+          <p class="about-text">
+            Rustomjee is synonymous with luxury, quality, and trust in Mumbai's real estate landscape.
+            With decades of excellence, Rustomjee has consistently delivered iconic residential
+            developments that redefine modern urban living.
+          </p>
+          <p class="about-text">
+            Rustomjee Ozone Phase 2 reflects this commitment through high-quality construction,
+            premium materials, smart space planning, and a lifestyle-focused design philosophy that
+            creates lasting value for homeowners and investors alike.
+          </p>
+          <div class="about-points">
+            <div class="about-point"><i class="fas fa-check-double"></i> High-quality construction standards</div>
+            <div class="about-point"><i class="fas fa-check-double"></i> Premium materials & premium finishes</div>
+            <div class="about-point"><i class="fas fa-check-double"></i> Smart space planning & modern architecture</div>
+            <div class="about-point"><i class="fas fa-check-double"></i> Long-term value creation for residents</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- ==================== INVESTMENT POTENTIAL ==================== -->
+<section class="section-investment">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6" data-aos="fade-right">
+        <span class="section-tag">Smart Investment</span>
+        <h2 class="section-title">Strong Future <span class="gold-text">Appreciation</span> Potential</h2>
+        <p class="intro-text">
+          Goregaon West continues to attract strong real estate demand because of ongoing infrastructure growth,
+          premium residential developments, and excellent connectivity. The upcoming GMLR and coastal road
+          developments are expected to significantly improve travel convenience and boost property appreciation.
+        </p>
+        <p class="intro-text">
+          Rustomjee Ozone Phase 2 presents a rare opportunity for investors and end-users seeking premium
+          residential property in Mumbai's rapidly developing luxury housing market.
+        </p>
+        <div class="invest-points">
+          <div class="invest-point"><i class="fas fa-map-marker-alt"></i><span>Prime Goregaon West Location</span></div>
+          <div class="invest-point"><i class="fas fa-gem"></i><span>Boutique Luxury Development</span></div>
+          <div class="invest-point"><i class="fas fa-box"></i><span>Limited Inventory – Exclusive Units</span></div>
+          <div class="invest-point"><i class="fas fa-hard-hat"></i><span>Growing Infrastructure Around</span></div>
+          <div class="invest-point"><i class="fas fa-road"></i><span>Excellent Connectivity Advantage</span></div>
+          <div class="invest-point"><i class="fas fa-star"></i><span>Premium Lifestyle Appeal</span></div>
+          <div class="invest-point"><i class="fas fa-chart-line"></i><span>Increasing Demand for Luxury Homes</span></div>
+        </div>
+      </div>
+      <div class="col-lg-6" data-aos="fade-left">
+        <div class="invest-cards">
+          <div class="invest-stat-card">
+            <div class="isc-icon"><i class="fas fa-building"></i></div>
+            <div>
+              <h4>G+49 Storey</h4>
+              <p>Iconic high-rise defining the Goregaon West skyline</p>
+            </div>
+          </div>
+          <div class="invest-stat-card">
+            <div class="isc-icon"><i class="fas fa-map"></i></div>
+            <div>
+              <h4>0.3 Acre Land</h4>
+              <p>Exclusive boutique land parcel — truly limited supply</p>
+            </div>
+          </div>
+          <div class="invest-stat-card invest-stat-highlight">
+            <div class="isc-icon"><i class="fas fa-road"></i></div>
+            <div>
+              <h4>GMLR – 2.5 km</h4>
+              <p>Upcoming infrastructure driving strong value appreciation</p>
+            </div>
+          </div>
+          <div class="invest-stat-card">
+            <div class="isc-icon"><i class="fas fa-water"></i></div>
+            <div>
+              <h4>Coastal Road – 8 km</h4>
+              <p>Versova–Dahisar corridor enhancing connectivity & value</p>
+            </div>
+          </div>
+          <div class="invest-stat-card">
+            <div class="isc-icon"><i class="fas fa-calendar-check"></i></div>
+            <div>
+              <h4>Possession Dec 2031</h4>
+              <p>Clear timeline with RERA registration for buyer confidence</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== PAYMENT PLANS ==================== -->
+<section class="section-payment">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-10 text-center" data-aos="fade-up">
+        <span class="section-tag">Buyer Convenience</span>
+        <h2 class="section-title">Attractive <span class="gold-text">Payment Plans</span></h2>
+        <p class="section-subtitle">
+          Flexible payment options designed to make your luxury home ownership journey comfortable and stress-free
+        </p>
+      </div>
+    </div>
+    <div class="row g-4 mt-3 justify-content-center">
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="payment-card">
+          <div class="pay-icon"><i class="fas fa-map"></i></div>
+          <h5>0.3 Acre Land Parcel</h5>
+          <p>An exclusive boutique land parcel hosting a single iconic tower — ensuring privacy and community of like-minded residents.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="150">
+        <div class="payment-card payment-card-highlight">
+          <div class="pay-icon"><i class="fas fa-credit-card"></i></div>
+          <h5>Attractive Payment Plans</h5>
+          <p>Flexible and convenient payment structures designed to provide buyers the ability to plan their investment comfortably.</p>
+          <a href="#contact" class="btn-pay-cta">Get Payment Details</a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="payment-card">
+          <div class="pay-icon"><i class="fas fa-users-slash"></i></div>
+          <h5>No Old Members</h5>
+          <p>Pure sale development — no old/existing members. A fresh, professionally planned community built from the ground up.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="250">
+        <div class="payment-card payment-rera-card">
+          <div class="rera-badge-icon">
+            <div class="rera-badge-ring">
+              <i class="fas fa-certificate"></i>
+              <span class="rera-badge-text">RERA</span>
+            </div>
+            <div class="rera-badge-glow"></div>
+          </div>
+          <h5>RERA Expected June 2026</h5>
+          <p>RERA registration expected in the 1st week of June 2026, ensuring full transparency and legal compliance for buyers.</p>
+          <div class="rera-info-strip">
+            <i class="fas fa-shield-check"></i>
+            <span>1st Week · June 2026 · MahaRERA</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="payment-card">
+          <div class="pay-icon"><i class="fas fa-key"></i></div>
+          <h5>Possession December 2031</h5>
+          <p>A clear and planned possession timeline giving buyers the confidence to invest with full transparency and trust.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== A RARE OPPORTUNITY ==================== -->
+<section class="section-rare">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-7" data-aos="fade-right">
+        <span class="section-tag">Rare Opportunity</span>
+        <h2 class="section-title">A Rare Opportunity in <span class="gold-text">Goregaon West</span></h2>
+        <p class="intro-text">
+          Luxury residential developments in prime Mumbai locations continue to witness increasing demand from
+          both investors and end-users. Rustomjee Ozone Phase 2 offers an excellent opportunity to own a
+          premium home in one of Mumbai's most promising and rapidly evolving micro-markets.
+        </p>
+        <p class="intro-text">
+          The project combines luxury living, modern architecture, excellent connectivity, premium amenities,
+          and strong future growth potential within an exclusive boutique tower environment.
+        </p>
+        <p class="intro-text">
+          Whether you are looking for your dream luxury residence or a future-ready real estate investment
+          in Mumbai, Rustomjee Ozone Phase 2 – Goregaon West offers the perfect blend of elegance,
+          convenience, and long-term value.
+        </p>
+        <div class="rare-cta">
+          <a href="#contact" class="btn-luxury-primary">
+            <i class="fas fa-calendar-check me-2"></i>Book Site Visit
+          </a>
+          <a href="#contact" class="btn-luxury-secondary ms-3">
+            <i class="fas fa-download me-2"></i>Get Brochure
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-5" data-aos="fade-left">
+        <div class="rare-highlights">
+          <div class="rare-item"><i class="fas fa-star"></i><span>Ultra-Luxury 2 & 3 BHK Residences</span></div>
+          <div class="rare-item"><i class="fas fa-star"></i><span>G+49 Iconic Boutique Tower</span></div>
+          <div class="rare-item"><i class="fas fa-star"></i><span>Pure Sale – No Redevelopment</span></div>
+          <div class="rare-item"><i class="fas fa-star"></i><span>Sky-Level Premium Amenities</span></div>
+          <div class="rare-item"><i class="fas fa-star"></i><span>Trusted Rustomjee Builder</span></div>
+          <div class="rare-item"><i class="fas fa-star"></i><span>200m from SV Road & Link Road</span></div>
+          <div class="rare-item"><i class="fas fa-star"></i><span>20m from GMLR Flyover</span></div>
+          <div class="rare-item"><i class="fas fa-star"></i><span>Possession December 2031</span></div>
+          <div class="rare-cta-box">
+            <p>Limited Units Available</p>
+            <a href="tel:+919999999999" class="btn-luxury-primary">
+              <i class="fas fa-phone-alt me-2"></i>Call Now
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== FAQ ==================== -->
+<section class="section-dark" id="faq">
+  <div class="container">
+    <div class="section-header text-center" data-aos="fade-up">
+      <span class="section-tag">Know More</span>
+      <h2 class="section-title">Frequently Asked <span class="gold-text">Questions</span></h2>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
+        <div class="accordion luxury-accordion" id="faqAccordion">
+          <div class="accordion-item luxury-acc-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button luxury-acc-btn" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                Where is Rustomjee Ozone Phase 2 located?
+              </button>
+            </h2>
+            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+              <div class="accordion-body luxury-acc-body">
+                The project is located in Goregaon West, Mumbai, with excellent connectivity to SV Road (200m), Link Road (200m), WEH & GMLR Flyover (20m), and Western Express Highway (1.5 km).
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item luxury-acc-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button luxury-acc-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                What configurations are available?
+              </button>
+            </h2>
+            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body luxury-acc-body">
+                The project offers spacious 2 BHK (740+ sq.ft.) and 3 BHK (1000+ sq.ft.) luxury residences along with Jodi apartment options for large families.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item luxury-acc-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button luxury-acc-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                What are the major project highlights?
+              </button>
+            </h2>
+            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body luxury-acc-body">
+                Ground + 49 storey iconic tower, boutique low-density living, premium sky-level amenities, pure sale development (no redevelopment), spacious smart layouts, and trusted Rustomjee quality.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item luxury-acc-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button luxury-acc-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                Is this project suitable for investment?
+              </button>
+            </h2>
+            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body luxury-acc-body">
+                Yes! The project offers strong future appreciation potential due to its prime location, upcoming GMLR and Coastal Road developments, boutique luxury positioning, and limited inventory.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item luxury-acc-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button luxury-acc-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                What are the project details and RERA status?
+              </button>
+            </h2>
+            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body luxury-acc-body">
+                Approx. 0.3 Acre land parcel, 1 exclusive sale tower, no old members, RERA Expected in 1st week of June 2026, and possession expected in December 2031.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item luxury-acc-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button luxury-acc-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">
+                What amenities are available?
+              </button>
+            </h2>
+            <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body luxury-acc-body">
+                Infinity pool, sky lounge, modern fitness centre, yoga & meditation spaces, luxury clubhouse, indoor games, landscaped gardens, children's play area, jogging track, senior citizen zones, multi-purpose hall, high-speed elevators, and advanced 24x7 security systems.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== CONTACT FORM ==================== -->
+<section class="section-contact" id="contact">
+  <div class="container">
+    <div class="section-header text-center" data-aos="fade-up">
+      <span class="section-tag">Get In Touch</span>
+      <h2 class="section-title">Book Your <span class="gold-text">Site Visit</span></h2>
+      <p class="section-subtitle">Our property experts are ready to guide you with floor plans, pricing &amp; payment plans</p>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-7 col-md-10" data-aos="fade-up" data-aos-delay="100">
+        <div class="contact-form-card">
+          <h4 class="form-card-title">
+            <i class="fas fa-envelope-open-text gold-text"></i> Send Enquiry
+          </h4>
+          <form id="contactForm" onsubmit="handleForm(event, 'contactForm')">
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <div class="form-group-luxury">
+                  <label><i class="fas fa-user"></i> Full Name *</label>
+                  <input type="text" class="luxury-input" placeholder="Enter your full name" required/>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group-luxury">
+                  <label><i class="fas fa-phone"></i> Phone Number *</label>
+                  <input type="tel" class="luxury-input" placeholder="+91 00000 00000" required/>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group-luxury">
+                  <label><i class="fas fa-envelope"></i> Email Address</label>
+                  <input type="email" class="luxury-input" placeholder="your@email.com"/>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group-luxury">
+                  <label><i class="fas fa-home"></i> Configuration</label>
+                  <select class="luxury-input">
+                    <option value="">Select Configuration</option>
+                    <option>2 BHK – 740+ sq.ft.</option>
+                    <option>3 BHK – 1000+ sq.ft.</option>
+                    <option>Jodi Apartment</option>
+                    <option>Investment Purpose</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-group-luxury">
+                  <label><i class="fas fa-comment"></i> Message (Optional)</label>
+                  <textarea class="luxury-input" rows="3" placeholder="Any specific requirements..."></textarea>
+                </div>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn-form-submit">
+                  <i class="fas fa-paper-plane me-2"></i>Send Enquiry Now
+                </button>
+                <p class="form-privacy">
+                  <i class="fas fa-lock"></i> We respect your privacy. No spam, ever.
+                </p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== FINAL CTA ==================== -->
+<section class="section-cta">
+  <div class="cta-overlay"></div>
+  <div class="container text-center position-relative">
+    <div data-aos="zoom-in">
+      <h2 class="cta-title">A Rare Opportunity in <span class="gold-text">Goregaon West</span></h2>
+      <p class="cta-subtitle">
+        Own a premium luxury residence in Mumbai's fastest-growing micro-market.
+        Limited units available. Act now to secure your dream home.
+      </p>
+      <div class="cta-btns">
+        <a href="#contact" class="btn-luxury-primary">
+          <i class="fas fa-calendar-check me-2"></i>Book Site Visit
+        </a>
+        <a href="tel:+919999999999" class="btn-luxury-secondary">
+          <i class="fas fa-phone-alt me-2"></i>Call Now
+        </a>
+        <a href="https://wa.me/919999999999" class="btn-whatsapp">
+          <i class="fab fa-whatsapp me-2"></i>WhatsApp Us
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== FOOTER ==================== -->
+<footer class="luxury-footer">
+  <div class="footer-top-border"></div>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-links-row">
+        <span class="footer-links-label">Quick Links</span>
+        <nav class="footer-nav-links">
+          <a href="#home">Home</a>
+          <a href="#highlights">Highlights</a>
+          <a href="#configurations">Configurations</a>
+          <a href="#amenities">Amenities</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#location">Location</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Rustomjee Ozone Phase 2. All Rights Reserved.</p>
+        <p class="footer-disclaimer">
+          This is a marketing communication. All specifications are subject to change without notice.
+          Please verify all details with the developer before making any investment decision.
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ==================== MOBILE STICKY BAR ==================== -->
+<div class="mobile-sticky-bar d-lg-none">
+  <a href="tel:+919999999999" class="sticky-btn sticky-call">
+    <i class="fas fa-phone-alt"></i>
+    <span>Call</span>
+  </a>
+  <a href="https://wa.me/919999999999" class="sticky-btn sticky-whatsapp">
+    <i class="fab fa-whatsapp"></i>
+    <span>WhatsApp</span>
+  </a>
+  <a href="#contact" class="sticky-btn sticky-enquire">
+    <i class="fas fa-envelope"></i>
+    <span>Enquire</span>
+  </a>
+</div>
+
+<!-- ==================== BACK TO TOP ==================== -->
+<button class="back-to-top" id="backToTop" onclick="scrollToTop()">
+  <i class="fas fa-chevron-up"></i>
+</button>
+
+<!-- ==================== SUCCESS MODAL ==================== -->
+<div class="modal fade" id="successModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content luxury-modal">
+      <div class="modal-body text-center p-5">
+        <div class="success-icon"><i class="fas fa-check-circle"></i></div>
+        <h4 class="mt-3">Thank You!</h4>
+        <p>Your enquiry has been submitted successfully. Our property expert will contact you within 24 hours.</p>
+        <button class="btn-luxury-primary mt-3" data-bs-dismiss="modal">Continue Exploring</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"/>
+<script src="script.js"></script>
+</body>
+</html>
