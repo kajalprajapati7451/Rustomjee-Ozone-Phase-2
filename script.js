@@ -65,10 +65,10 @@ new Swiper('.highlights-swiper', {
 
 // ==================== AMENITY SWIPER ====================
 new Swiper('.amenity-swiper', {
-  slidesPerView: 1,
-  spaceBetween: 24,
+  slidesPerView: 1.15,
+  spaceBetween: 20,
   loop: true,
-  autoplay: { delay: 4000, disableOnInteraction: false, pauseOnMouseEnter: true },
+  autoplay: { delay: 3500, disableOnInteraction: false, pauseOnMouseEnter: true },
   pagination: {
     el: '.amenity-pagination',
     clickable: true,
@@ -78,10 +78,10 @@ new Swiper('.amenity-swiper', {
     nextEl: '.amenity-next',
   },
   breakpoints: {
-    640:  { slidesPerView: 1.4 },
-    768:  { slidesPerView: 2 },
-    1024: { slidesPerView: 2.4 },
-    1280: { slidesPerView: 3 },
+    576:  { slidesPerView: 1.5, spaceBetween: 20 },
+    768:  { slidesPerView: 2.2, spaceBetween: 22 },
+    1024: { slidesPerView: 3, spaceBetween: 24 },
+    1280: { slidesPerView: 3.5, spaceBetween: 24 },
   },
 });
 
